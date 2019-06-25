@@ -1,6 +1,6 @@
 * [入门和安装]()
 * [更新记录](CHANGELOG)
-* 税控盘（http://fpfw2.aiee.fun:6677/fpfw2/test/mnkp）
+* [税控盘](http://fpfw2.aiee.fun:6677/fpfw2/test/mnkp)
   * 登记
     * [登记开票应用](税控盘/登记/登记开票应用-税控盘.md)
   * 类型转换
