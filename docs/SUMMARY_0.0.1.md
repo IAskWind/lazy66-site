@@ -1,8 +1,8 @@
 * [入门和安装]()
 * [更新记录](CHANGELOG)
-* 核心（Lazy-core）
-  * 克隆
-    * [支持泛型的克隆接口和克隆类](core/克隆/支持泛型的克隆接口和克隆类.md)
+* 税控盘（http://fpfw2.aiee.fun:6677/fpfw2/test/mnkp）
+  * 登记
+    * [登记开票应用](税控盘/登记/登记开票应用-税控盘.md)
   * 类型转换
     * [类型转换工具类-Convert](core/类型转换/类型转换工具类-Convert.md)
     * [自定义类型转换-ConverterRegistry](core/类型转换/自定义类型转换-ConverterRegistry.md)
