@@ -59,6 +59,7 @@
 								<span><img src="https://cdn.jsdelivr.net/gh/IAskWind/lazy66-site/images/logo.png" style="width: 120px;margin-right: 50px;"/></span>
 								<a href="#" data-nav-section="home">主页</a>
 								<a href="#" data-nav-section="docs">文档</a>
+								<a href="#" onclick="javascript:window.open('question/','_blank')">常见问题</a>
 								<a href="#" data-nav-section="link_center">链接中心</a>
 								<a href="#" data-nav-section="contact">联系我们</a>
 								<a href="#" data-nav-section="friends">友情链接</a>
@@ -310,6 +311,11 @@
 	<script src="https://cdn.jsdelivr.net/gh/IAskWind/lazy66-site/js/highlight.min.js"></script>
 	<!-- Main JS -->
 	<script src="https://cdn.jsdelivr.net/gh/IAskWind/lazy66-site/js/main.js"></script>
+		<script>
+            $(".fh5co-menu-1 a").click(function(){
+                $(this).addClass("active").siblings().removeClass("active")
+            })
+		</script>
 		<!--<script>-->
             <!--((window.gitter = {}).chat = {}).options = {-->
                 <!--room: 'Lazy/sst'-->
