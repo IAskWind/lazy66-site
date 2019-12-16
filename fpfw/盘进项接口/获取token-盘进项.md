@@ -4,6 +4,7 @@
 - 接口名称：`lazy.opweb.pjx.gettoken`
 - 报文版本：1.0
 - 接口说明：获取token。
+
 ##### 请求报文：
 ```json
 {
