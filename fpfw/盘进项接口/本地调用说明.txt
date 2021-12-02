@@ -1,0 +1,26 @@
+### 第一步
+
+调用插件的ClientHello 具体参数看插件
+
+返回: strresult
+
+### 第二步
+
+调用 lazy.opweb.pjx.client_hello 专递税号和第一步返回的strresult
+
+返回： serverHello  serverRandom  publickey  ts
+
+### 第三步
+
+调用插件的ClientAuth 具体参数看插件
+
+返回  strresult
+
+### 第四步
+
+调用 lazy.opweb.pjx.client_auth 
+
+参数：clientauthcode 第三步返回的 strresult
+
+其他参数，第二步返回的
+
